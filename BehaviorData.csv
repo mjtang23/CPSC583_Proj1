@@ -1,0 +1,226 @@
+Situation,Behavior,Values
+Class,Run,2.52
+Class,Talk,6.21
+Class,Kiss,2.10
+Class,Write,8.17
+Class,Eat,4.23
+Class,Sleep,3.60
+Class,Mumble,3.62
+Class,Read,7.27
+Class,Fight,1.21
+Class,Belch,1.77
+Class,Argue,5.33
+Class,Jump,1.79
+Class,Cry,2.21
+Class,Laugh,6.23
+Class,Shout,1.94
+Date,Run,5.00
+Date,Talk,8.56
+Date,Kiss,8.73
+Date,Write,3.62
+Date,Eat,7.79
+Date,Sleep,3.77
+Date,Mumble,3.12
+Date,Read,2.88
+Date,Fight,3.58
+Date,Belch,2.23
+Date,Argue,4.50
+Date,Jump,4.42
+Date,Cry,3.04
+Date,Laugh,8.00
+Date,Shout,3.79
+Bus,Run,1.44
+Bus,Talk,8.08
+Bus,Kiss,4.27
+Bus,Write,4.87
+Bus,Eat,5.48
+Bus,Sleep,7.04
+Bus,Mumble,5.17
+Bus,Read,7.17
+Bus,Fight,1.52
+Bus,Belch,2.15
+Bus,Argue,4.17
+Bus,Jump,3.12
+Bus,Cry,3.08
+Bus,Laugh,7.10
+Bus,Shout,3.00
+Family dinner,Run,2.56
+Family dinner,Talk,8.52
+Family dinner,Kiss,4.92
+Family dinner,Write,2.58
+Family dinner,Eat,8.44
+Family dinner,Sleep,2.29
+Family dinner,Mumble,2.54
+Family dinner,Read,3.96
+Family dinner,Fight,1.67
+Family dinner,Belch,2.50
+Family dinner,Argue,3.25
+Family dinner,Jump,2.29
+Family dinner,Cry,3.21
+Family dinner,Laugh,7.13
+Family dinner,Shout,1.96
+Park,Run,7.94
+Park,Talk,8.42
+Park,Kiss,7.71
+Park,Write,7.00
+Park,Eat,8.13
+Park,Sleep,5.63
+Park,Mumble,5.40
+Park,Read,7.77
+Park,Fight,3.06
+Park,Belch,5.00
+Park,Argue,5.06
+Park,Jump,7.42
+Park,Cry,5.21
+Park,Laugh,8.10
+Park,Shout,6.92
+Church,Run,1.38
+Church,Talk,3.29
+Church,Kiss,2.38
+Church,Write,2.85
+Church,Eat,1.38
+Church,Sleep,1.77
+Church,Mumble,3.52
+Church,Read,3.58
+Church,Fight,0.62
+Church,Belch,1.42
+Church,Argue,1.92
+Church,Jump,1.71
+Church,Cry,3.13
+Church,Laugh,2.60
+Church,Shout,1.33
+Job interview,Run,1.94
+Job interview,Talk,8.46
+Job interview,Kiss,1.08
+Job interview,Write,4.85
+Job interview,Eat,1.73
+Job interview,Sleep,0.75
+Job interview,Mumble,1.31
+Job interview,Read,2.48
+Job interview,Fight,1.04
+Job interview,Belch,1.21
+Job interview,Argue,1.83
+Job interview,Jump,1.48
+Job interview,Cry,1.37
+Job interview,Laugh,5.88
+Job interview,Shout,1.65
+Sidewalk,Run,5.58
+Sidewalk,Talk,8.19
+Sidewalk,Kiss,4.75
+Sidewalk,Write,3.38
+Sidewalk,Eat,4.83
+Sidewalk,Sleep,1.46
+Sidewalk,Mumble,4.96
+Sidewalk,Read,4.81
+Sidewalk,Fight,1.46
+Sidewalk,Belch,2.81
+Sidewalk,Argue,4.08
+Sidewalk,Jump,3.54
+Sidewalk,Cry,3.71
+Sidewalk,Laugh,7.40
+Sidewalk,Shout,4.88
+Movies,Run,2.46
+Movies,Talk,4.98
+Movies,Kiss,6.21
+Movies,Write,2.73
+Movies,Eat,7.48
+Movies,Sleep,4.08
+Movies,Mumble,4.13
+Movies,Read,1.73
+Movies,Fight,1.37
+Movies,Belch,2.58
+Movies,Argue,1.71
+Movies,Jump,2.31
+Movies,Cry,7.15
+Movies,Laugh,7.94
+Movies,Shout,2.42
+Bar,Run,1.96
+Bar,Talk,8.25
+Bar,Kiss,5.17
+Bar,Write,5.38
+Bar,Eat,7.67
+Bar,Sleep,2.90
+Bar,Mumble,6.21
+Bar,Read,4.71
+Bar,Fight,1.90
+Bar,Belch,5.04
+Bar,Argue,4.31
+Bar,Jump,3.75
+Bar,Cry,3.44
+Bar,Laugh,8.23
+Bar,Shout,4.13
+Elevator,Run,1.63
+Elevator,Talk,7.40
+Elevator,Kiss,4.79
+Elevator,Write,3.04
+Elevator,Eat,5.10
+Elevator,Sleep,1.31
+Elevator,Mumble,5.12
+Elevator,Read,4.48
+Elevator,Fight,1.58
+Elevator,Belch,2.54
+Elevator,Argue,2.58
+Elevator,Jump,2.12
+Elevator,Cry,3.48
+Elevator,Laugh,6.77
+Elevator,Shout,1.73
+Restroom,Run,2.83
+Restroom,Talk,7.25
+Restroom,Kiss,2.81
+Restroom,Write,3.46
+Restroom,Eat,2.35
+Restroom,Sleep,2.83
+Restroom,Mumble,5.04
+Restroom,Read,4.75
+Restroom,Fight,1.77
+Restroom,Belch,5.12
+Restroom,Argue,3.48
+Restroom,Jump,3.65
+Restroom,Cry,4.79
+Restroom,Laugh,5.90
+Restroom,Shout,3.52
+Own room,Run,6.15
+Own room,Talk,8.58
+Own room,Kiss,8.52
+Own room,Write,8.29
+Own room,Eat,7.94
+Own room,Sleep,8.85
+Own room,Mumble,7.67
+Own room,Read,8.58
+Own room,Fight,4.25
+Own room,Belch,6.81
+Own room,Argue,7.52
+Own room,Jump,6.73
+Own room,Cry,8.00
+Own room,Laugh,8.17
+Own room,Shout,6.44
+Dorm lounge,Run,4.40
+Dorm lounge,Talk,7.88
+Dorm lounge,Kiss,6.54
+Dorm lounge,Write,7.73
+Dorm lounge,Eat,7.19
+Dorm lounge,Sleep,6.08
+Dorm lounge,Mumble,5.50
+Dorm lounge,Read,8.56
+Dorm lounge,Fight,2.40
+Dorm lounge,Belch,4.00
+Dorm lounge,Argue,4.88
+Dorm lounge,Jump,4.58
+Dorm lounge,Cry,3.88
+Dorm lounge,Laugh,7.75
+Dorm lounge,Shout,3.60
+Football game,Run,4.12
+Football game,Talk,8.08
+Football game,Kiss,5.08
+Football game,Write,4.56
+Football game,Eat,8.04
+Football game,Sleep,2.98
+Football game,Mumble,5.23
+Football game,Read,3.69
+Football game,Fight,2.04
+Football game,Belch,3.85
+Football game,Argue,4.98
+Football game,Jump,7.12
+Football game,Cry,4.31
+Football game,Laugh,7.90
+Football game,Shout,7.94

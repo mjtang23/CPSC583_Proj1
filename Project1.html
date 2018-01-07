@@ -1,0 +1,80 @@
+<!-- /*Sources: -->
+<!-- TA: Tiffany Wun -->
+<!-- http://zeroviscosity.com/d3-js-step-by-step/step-3-adding-a-legend -->
+<!-- http://bl.ocks.org/weiglemc/6185069 -->
+<!-- http://bl.ocks.org/biovisualize/1016860 -->
+<!-- */ -->
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<style>
+	.legend {                                                   
+        font-size: 16px;                                          
+    }  
+	rect:hover{
+		stroke: black;
+		
+	}
+	    
+</style>
+
+<head>
+	<title>Project 1</title> 
+	<script src="http://d3js.org/d3.v4.min.js"> </script>
+	
+</head>
+	<svg width="1420" height="740"></svg>
+    </canvas>
+<body>
+	<script src = "Project1.js"></script>
+	<script>
+		
+		d3.csv("BehaviorData.csv", function(data){
+		
+			//if (error) throw error;
+			data.apples = +data.apples;
+			return data;
+		}, function(data){
+			//will set the data on the graph from the smallest x value to largest. returns an array
+			x.domain(data.map(function(d){return d.Situation;}));
+	
+			//sets the y axis of the graph from 0 to the largest y value. returns an array
+			y.domain([0, 10]);
+	
+			//Setting up the x axis
+			g.append("g")
+			.attr("transform", "translate(0," + height + ")")
+			.call(d3.axisBottom(x))
+
+				
+			//Setting up the y axis
+			g.append("g")
+			.call(d3.axisLeft(y).ticks(20));
+			
+			//creating Titles
+			g.append("text")
+			.attr("transform", "translate("+ -(margin.left/2) + ","+((height - 100)/2) +")rotate(-90)")  // text is drawn off the screen top left, move down and out and rotate
+            .text("Mean Appropriateness Ratings");
+			
+			//creating lines for scatter plot
+			 g.selectAll(".dot")
+			.data(data)
+			.enter()
+			.append("rect")
+			.attr("width", 65)
+			.attr("height", 3)
+			.attr("x", function(data){ return x(data.Situation) ;})
+			.attr("y", function (data){ return y(data.Values);})
+			.style("fill", function(data) { return color(data.Behavior); })
+            .on("mouseover", function(data){
+				tooltip.html(data.Values +" "+ data.Behavior)
+				.style("left", (d3.event.pageX) + "px")		
+                .style("top", (d3.event.pageY) - 30+ "px")
+				});
+			
+
+		});
+			
+	</script>
+</body>
+</html>
